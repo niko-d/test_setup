@@ -8,6 +8,7 @@ dependencies:
   - nbgitpuller
   - numpy
   - matplotlib
+  - cartopy         # added
   - jupyterlab            # Include JupyterLab for a richer interface
   - notebook              # Include classic notebook support
   - ipywidgets            # Needed for interactive widgets

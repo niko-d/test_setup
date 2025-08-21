@@ -8,6 +8,7 @@ from ipywidgets import FloatSlider, FloatText, HBox, Label, interactive_output, 
 from IPython.display import display
 import matplotlib.patches as patches  
 
+client = Client("ETH")
 
 # Download der Daten und Prozessierung
 def get_data(station_data,origin_time):

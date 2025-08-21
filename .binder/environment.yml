@@ -1,12 +1,13 @@
-name: binder-env
-channels:
+name: teaching
+channels: 
   - conda-forge
 dependencies:
-  - python=3.11
-  - jupyterlab
+  - python=3.10           # Ensure consistent Python version
+  - obspy
+  - ipympl
+  - nbgitpuller
   - numpy
-  - scipy
   - matplotlib
-  - pip
-  - pip:
-    - setuptools
+  - jupyterlab            # Include JupyterLab for a richer interface
+  - notebook              # Include classic notebook support
+  - ipywidgets            # Needed for interactive widgets

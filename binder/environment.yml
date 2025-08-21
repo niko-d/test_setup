@@ -1,0 +1,12 @@
+name: binder-env
+channels:
+  - conda-forge
+dependencies:
+  - python=3.11
+  - jupyterlab
+  - numpy
+  - scipy
+  - matplotlib
+  - pip
+  - pip:
+    - my-custom-py-package==0.1.0

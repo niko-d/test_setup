@@ -195,7 +195,7 @@ def plot_with_p_s(timeseries, initial_p=1, initial_s=3, time_range=[0, 10]):
     return values
 
 
-def get_station_info(station_data):
+def get_station_info(station_data,origin_time):
     # Wir sammeln noch die Koordinaten der Stationen (Lat/Lon)
     station_info = []
     for stat in station_data:

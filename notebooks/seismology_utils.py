@@ -1,3 +1,14 @@
+import matplotlib.pyplot as plt
+import numpy as np
+from obspy import UTCDateTime
+from obspy.clients.fdsn import Client
+import cartopy
+import matplotlib.pyplot as plt
+from ipywidgets import FloatSlider, FloatText, HBox, Label, interactive_output, Output
+from IPython.display import display
+import matplotlib.patches as patches  
+
+
 # Download der Daten und Prozessierung
 def get_data(station_data,origin_time):
     # Daten Download

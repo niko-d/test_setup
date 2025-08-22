@@ -10,6 +10,8 @@ dependencies:
   - numpy
   - matplotlib
   - cartopy=0.23.*          # will pull a prebuilt wheel
+  - shapely
+  - pyproj
   - jupyterlab            # Include JupyterLab for a richer interface
   - notebook              # Include classic notebook support
   - ipywidgets            # Needed for interactive widgets

@@ -1,7 +1,6 @@
 name: teaching
 channels: 
   - conda-forge
-  - defaults
 dependencies:
   - python=3.10           # Ensure consistent Python version
   - obspy
@@ -9,9 +8,7 @@ dependencies:
   - nbgitpuller
   - numpy
   - matplotlib
-  - cartopy=0.23.*          # will pull a prebuilt wheel
-  - shapely
-  - pyproj
+  - cartopy
   - jupyterlab            # Include JupyterLab for a richer interface
   - notebook              # Include classic notebook support
   - ipywidgets            # Needed for interactive widgets
